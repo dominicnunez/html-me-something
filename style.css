@@ -14,19 +14,14 @@ html {
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-p, h1, h2, h3, h4, li, div {
-   font-family: Rockwell;
+    background-color: rgba(0, 0, 0, 0.5);'font-family: Rockwell;
     font-variant: small-caps;
     line-height: 1.4;
     font-size: 18px;
-    color: #0FB9D9; 
-}
-
+    color: deepskyblue;'
 }
 
 a {
-    color: #1596AE;
+    color: dodgerblue;
+/*    color: mediumslateblue; for "used" link */
 }
