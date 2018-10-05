@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <link rel="stylesheet" type="text/css" href="style.css">
     <title>VR Party</title>
 </head>
 <header>
@@ -8,7 +9,6 @@
    <img src="./images/headset.png" alt="VR HMD" height="100" width="100">
     <nav>
        <ul>
-       <li><a href="./index.html">Home</a></li>
        <li><a href="#games">Games</a></li>
        <li><a href="#price">Pricing</a></li>
        <li><a href="#faq">FAQ</a></li>
@@ -21,21 +21,23 @@
 </header>
 
 <body>
+ <div class="bg"></div>
   <main>
    <section id="subscribe">
     <h1>Change The Way You Play</h1>
     <p>Why wait? Experience virtual reality now! With VR Party, we bring the party to you! We only use the best VR technology and custom computers to provide you with the most immersive experience.
         </p>
         
-        <p>
+        <div id="newsletter">
         Stay up to date by subscribing to our newsletter!
-        </p>
-    <form method="GET">
-        First Name: <input type="text" name="firstname"><br>
-        Last Name: <input type="text" name="lasttname"><br>
-        Email: <input type="email" name="email" required><br>
-        Birthday: <input type="date" name="birthday"><br>
-        <input type="submit" value="Subscribe"></form>
+       </div>
+        <div><form method="GET">
+            <div>First Name: <input type="text" name="firstname"></div>
+            <div>Last Name: <input type="text" name="lasttname"></div>
+            <div>Email: <input type="email" name="email" required></div>
+            <div>Birthday: <input type="date" name="birthday"></div>
+            <div><input type="submit" value="Subscribe"></form></div>
+        </div>
         </section>
         </main>
         
@@ -95,7 +97,7 @@
     </section>
     
     <footer>
-    <div>&copy;2018 NewCompanyName</div>
+    <div>&copy;2018 VR Party</div>
    <div>Background photo by NeONBRAND on Unsplash</div>
 </footer>
 </body>
