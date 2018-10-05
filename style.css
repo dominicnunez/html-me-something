@@ -10,15 +10,23 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%
+    background-color: black;
 }
 
 body {
-    font-family: Rockwell;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p, h1, h2, h3, h4, li, div {
+   font-family: Rockwell;
     font-variant: small-caps;
     line-height: 1.4;
     font-size: 18px;
+    color: #0FB9D9; 
 }
 
-h1, h2, h3, h4, nav {
-    font-variant: small-caps;
+}
+
+a {
+    color: #1596AE;
 }
