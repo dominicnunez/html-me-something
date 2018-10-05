@@ -14,14 +14,37 @@ html {
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.5);'font-family: Rockwell;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Rockwell;
     font-variant: small-caps;
     line-height: 1.4;
     font-size: 18px;
-    color: deepskyblue;'
+    color: deepskyblue;
+    text-align: center;
+}
+
+#page-wrap {
+  text-align: left;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 a {
     color: dodgerblue;
-/*    color: mediumslateblue; for "used" link */
+}
+
+a:visited {
+    color: mediumslateblue;
+}
+
+.game:hover {
+    color: aliceblue
+}
+
+.question:hover {
+    color: aliceblue;
+}
+
+.answer:hover {
+    color: aliceblue;
 }
